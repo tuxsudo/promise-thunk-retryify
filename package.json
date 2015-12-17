@@ -1,11 +1,12 @@
 {
   "name": "promise-thunk-retryify",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "takes any function that returns a promise and will retry it n number of tries",
   "main": "dist/index.js",
   "jsnext:main": "index.js",
   "scripts": {
     "test": "babel-node test/spec.js | tap-spec",
+    "prepublish": "npm run build",
     "build": "babel index.js > dist/index.js"
   },
   "repository": {
