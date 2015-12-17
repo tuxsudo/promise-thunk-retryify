@@ -1,0 +1,29 @@
+{
+  "name": "promise-thunk-retryify",
+  "version": "1.0.0",
+  "description": "takes any function that returns a promise and will retry it n number of tries",
+  "main": "dist/index.js",
+  "jsnext:main": "index.js",
+  "scripts": {
+    "test": "babel-node test/spec.js | tap-spec",
+    "build": "babel index.js > dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tuxsudo/promise-thunk-retryify.git"
+  },
+  "keywords": [
+    "promise"
+  ],
+  "author": "Jared Anderson <@tuxsudo>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tuxsudo/promise-thunk-retryify/issues"
+  },
+  "homepage": "https://github.com/tuxsudo/promise-thunk-retryify#readme",
+  "devDependencies": {
+    "babel": "^5.8.34",
+    "tap-spec": "^4.1.1",
+    "tape": "^4.2.2"
+  }
+}
