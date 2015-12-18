@@ -1,6 +1,6 @@
 {
   "name": "promise-thunk-retryify",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "takes any function that returns a promise and will retry it n number of tries",
   "main": "dist/index.js",
   "jsnext:main": "index.js",
